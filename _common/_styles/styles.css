@@ -1,0 +1,100 @@
+body {
+  font-family: verdana, geneva, Arial, sans-serif;
+  font-size: 10pt;
+  width: 7.5in;
+}
+div {
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+}
+ul {
+  border-left: 1px solid #AAA;
+  margin: 0px 0px 0px 6px;
+  padding: 0px 0px 0px 2px;
+}
+input {
+  background-color: #FFF;
+  border: 1px solid #AAA;
+}
+input[type='checkbox'] {
+  display: inline-block;
+}
+input[type='text'] {
+  width: 80px;
+}
+
+div#save {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0px 0px 0px;
+  border: 1px solid #999;
+  font-size: 24px;
+  background-color: #DDD;
+}
+
+div#save:hover {
+  background-color: #AAA;
+}
+
+.require-full {
+  width: 7.5in;
+  display: inline-block;
+}
+
+.require-full li {
+  list-style-type: none;
+}
+
+.require {
+  width: 3.7in;
+  display: inline-block;
+}
+.require li {
+  list-style-type: none;
+}
+.constraints-full {
+  width: 7.5in;
+  display: inline-block;
+}
+
+.constraints-full li {
+  list-style-type: none;
+}
+.constraints {
+  width: 3.7in;
+  display: inline-block;
+}
+.constraints li {
+  list-style-type: none;
+}
+div.left {
+  width: 1.6in;
+  display: inline-block;
+}
+div.right {
+  width: 1.6in;
+  display: inline-block;
+}
+h1, h2, h3, h4, h5, h6 {
+  background-color: silver;
+}
+
+h1 { font-size: 150%; }
+h2 { font-size: 120%; }
+/* ===== footer ===== */
+
+#footer {
+    font-size: 0.8em;
+    width: 100%;
+    height: 5%;
+    clear: right;
+}
+
+@media print {
+  div#save {
+    display: none;
+  }
+
+}

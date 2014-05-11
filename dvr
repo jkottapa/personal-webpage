@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./scan < $1 | ./driver
+
